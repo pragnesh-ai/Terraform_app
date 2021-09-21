@@ -2,11 +2,13 @@
 # Terraform Cheat Sheet
 Terraform command accepts a variety of subcommands such as terraform init or terraform plan. Some of the widely used commands and subcommands  I have listed below.
 
+
 # Show version
 terraform –version	Shows terraform version installed
+
  
 # Initialize infrastructure
-terraform init	Initialize a working directory
+terraform init	Initialize a working directory\n
 terraform init -input=true	Ask for input if necessary
 terraform init -lock=false	Disable locking of state files during state-related operations
  
